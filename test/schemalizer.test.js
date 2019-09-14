@@ -10,7 +10,6 @@ test('builds schema', () => {
 
 test('builds schema with directives', () => {
   const schema = schemalizer(__dirname, { basePath:'graphql', directives: 'directives' })
-  console.log(schema.directiveResolvers)
   expect(schema.typeDefs).toBeDefined();
   expect(schema.resolvers.Query.hello).toBeDefined();
   expect(schema.directiveResolvers.test).toBeDefined();
