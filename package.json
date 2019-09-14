@@ -1,0 +1,31 @@
+{
+  "name": "schemalizer",
+  "version": "1.0.0",
+  "description": "graphql schema creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelnsantos/schemalizer.git"
+  },
+  "keywords": [
+    "graphql",
+    "schema",
+    "build"
+  ],
+  "author": "Rafael Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelnsantos/schemalizer/issues"
+  },
+  "homepage": "https://github.com/rafaelnsantos/schemalizer#readme",
+  "dependencies": {
+    "graphql-s2s": "^0.20.2",
+    "schemaglue": "^4.0.4"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
